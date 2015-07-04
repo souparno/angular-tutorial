@@ -1,6 +1,6 @@
-angular.module('app', []);
+var app = angular.module('app', []);
 
-angular.module('app').controller('appController', function($scope) {
+app.controller('appController', function($scope) {
   $scope.message = 'hello';
 
   $scope.updateMessage = function (message) {
